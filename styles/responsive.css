@@ -1,0 +1,61 @@
+/* media=575px */
+
+@media only screen and (max-width: 575px) {
+  h1 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .header_content {
+    height: 75px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header.scrolled .header_content {
+    height: 75px;
+  }
+  .logo a > span {
+    font-size: 24px;
+  }
+  .logo a > span:last-of-type {
+    font-size: 8px;
+    margin-left: 3px;
+  }
+  .button {
+    width: 180px;
+    height: 53px;
+  }
+  .button a {
+    font-size: 12px;
+    line-height: 53px;
+  }
+  .home_title h1 span {
+    font-size: 40px;
+  }
+  .home_info ul li,
+  .home_info ul li:not(:last-of-type)::after {
+    font-size: 18px;
+  }
+  .home_info {
+    height: 43px;
+  }
+  .home_button {
+    margin-top: 46px;
+  }
+  .home_slider_dots_container {
+    display: none;
+  }
+  .timer_num,
+  .timer li:not(:last-of-type)::after {
+    font-size: 36px;
+  }
+  .timer_unit {
+    font-size: 14px;
+  }
+  .intro_text p {
+    font-size: 16px;
+  }

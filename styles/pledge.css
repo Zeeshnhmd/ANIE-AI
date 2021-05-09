@@ -1,0 +1,62 @@
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  cursor: pointer;
+}
+
+form {
+  width: auto;
+  margin: auto;
+  outline: auto;
+  outline-color: #8ee53f;
+  background: #008000;
+}
+.tohide {
+  color: #fff;
+}
+.contact_button {
+  background: #8ee53f;
+  color: #000000;
+}
+.contact_button:hover i {
+  margin-left: 10px;
+}
+.cancle_button {
+  width: 146px;
+  height: 59px;
+  background: #ffffff;
+  border: none;
+  outline: none;
+  border-bottom: solid 3px #0a2642;
+  cursor: pointer;
+  margin-top: 11px;
+}
+
+.cancle_button span {
+  font-size: 14px;
+  font-weight: 900;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.contact_form {
+  padding: 10px;
+}
+.checkbox_select {
+  width: 15px;
+  height: 15px;
+}
+
+.cancle_button,
+.contact_button {
+  margin-right: 11px;
+}

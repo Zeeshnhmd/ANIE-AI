@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>International Women's Day 2021 | The Sparks Foundation</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="International Women's Day 2021 | The Sparks Foundation">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/animate.css">
+    <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles/contact.css">
+    <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/pledge.css">
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+
+    <script src="js/pledge.js"></script>
+</head>
+
+<body>
+    <div class="super_container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header_content d-flex flex-row align-items-center justify-content-start">
+
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="#">
+                        <span><span>#IStandforWorldEnvironmentDay</span> Pledge</span>
+                        <span>World Environment Day 5 June, 2021 ||<span> THE SPARKS FOUNDATION</span></span>
+                    </a>
+                </div>
+
+            </div>
+        </header>
+        <div id="overlay" style="overflow:scroll">
+            <!-- <div class="modal"> -->
+            <div class="contact_form_container" style="padding:50px; padding-bottom: 0px;">
+                <form onsubmit="saveDetails(event)" class="contact_form" id="contact_form">
+                    <div class="d-flex flex-md-row flex-column align-items-start justify-content-between">
+                        <div><input type="text" name="name" class="contact_input tohide" placeholder="Your name"
+                                required="required">
+                        </div>
+                        <div><input type="email" name="email" class="contact_input tohide" placeholder="Your email"
+                                required="required">
+                        </div>
+
+                        <br>
+                    </div>
+                    <div class="tohide">
+                        <input type="checkbox" style="height:20px;width:20px" class="checkbox_select" id="pledge" name="pledged" value="pledged"
+                            required> <label for="pledged">
+                                Yes I pledge, This World Environment Day, Pledge To Reduce Your Carbon Footprint.</label>
+                    </div>
+                    <div class="tohide">
+                        <input type="checkbox" style="height:20px;width:20px" class="checkbox_select" id="agree" name="agree" value="agreed" required>
+                        <label for="agree">Yes, I want to participate in the #IStandForWorldEnvironmentday challenge. More information will be sent to your email.</label>
+                    </div>
+                    <div id="message">
+                    </div>
+
+                    <button type="submit" form="contact_form" value="Submit" class="contact_button tohide" id="submitPledgeButton"><span>Pledge<i class="fa fa-arrow-right" aria-hidden="true"></i></span></button>
+                    <button onclick="off()" class="cancle_button"><span>Close</span></button>
+                    <br>
+                </form>
+            </div>
+        </div>
+
+
+
+        <!-- Home -->
+
+        <div class="home">
+
+            <!-- Home Slider -->
+            <div class="home_slider_container">
+                <div class="owl-carousel owl-theme home_slider">
+
+                    <!-- Slide -->
+                    <div class="slide">
+                        <div class="background_image"
+                            style="background-image:url(images/img1.jpg);filter: blur(3px);-webkit-filter: blur(3px);">
+                        </div>
+                        <div class="home_container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="home_content">
+                                            <div class="home_title">
+                                                <h1>
+                                                    <span>Love green, save your environment.</span>
+                                                    <span>society and workplace</span>
+                                                </h1>
+                                            </div>
+                                            <div class="home_info_container">
+                                                <div class="home_info">
+                                                    <ul
+                                                        class="d-flex flex-row align-items-center justify-content-start">
+                                                        <li>Join the global movement</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="button button_1 home_button"><a onclick="on()"><span
+                                                        style="color: black;">Pledge now<i class="fa fa-arrow-right" aria-hidden="true"></i></span></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide -->
+                    <div class="slide">
+                        <div class="background_image"
+                            style="background-image:url(images/img2.jpg);filter: blur(3px);-webkit-filter: blur(3px);brightness(70%);">
+                        </div>
+                        <div class="home_container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="home_content">
+                                            <div class="home_title">
+                                                <h1>
+                                                    <span>Join thousands of people globally</span>
+                                                    <span>to Save now, earn later. </span>
+                                                </h1>
+                                            </div>
+                                            <div class="home_info_container">
+                                                <div class="home_info">
+                                                    <ul
+                                                        class="d-flex flex-row align-items-center justify-content-start">
+                                                        <li>Show you care</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="button button_1 home_button"><a href="#"
+                                                    onclick="on()"><span>Pledge
+                                                        now<i class="fa fa-arrow-right" aria-hidden="true"></i></span></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide -->
+                    <div class="slide">
+                        <div class="background_image"
+                            style="background-image:url(images/img3.jpg);filter: blur(3px);-webkit-filter: blur(3px);">
+                        </div>
+                        <div class="home_container">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="home_content">
+                                            <div class="home_title">
+                                                <h1>
+                                                    <span>Be aware now, for a better future.</span>
+                                                    <span>Earth is our mother. </span>
+                                                </h1>
+                                            </div>
+                                            <div class="home_info_container">
+                                                <div class="home_info">
+                                                    <ul
+                                                        class="d-flex flex-row align-items-center justify-content-start">
+                                                        <li>Let's bridge the gap</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="button button_1 home_button"><a onclick="on()"><span
+                                                        style="color: black;">Pledge
+                                                        now<i class="fa fa-arrow-right" aria-hidden="true"></i></span></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        
+        <!-- Intro -->
+
+        <div class="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 text-center">
+                        <video width="500" height="500"  autoplay muted loop>
+						  <source src="images/movie3.mp4" type="video/mp4">
+						</video>
+                    </div>
+					<div class="col-lg-6 text-center">
+                        <div class="section_title_container text-center">
+                            <div class="section_title">
+                                <h1>Let's nurture the nature so that we can have a better future.</h1>
+                            </div>
+                        </div>
+                        <div class="intro_text text-center">
+                            <p>The Sparks Foundation brings the biggest giveaway for creating awareness on World Environment day 
+                                . You stand to win Amazon vouchers as part of this challenge.</p>
+                        </div>
+                        <div class="button button_2 intro_button"><a onclick="on()"><span style="color: white;">Pledge
+                                    now<i class="fa fa-arrow-right" aria-hidden="true"></i></span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Certificate-->
+
+        <div class="certi">
+            <div class="parallax_background parallax-window" data-parallax="scroll"
+                data-image-src="images/international-womens-day-issues_2x.png" data-speed="0.8"></div>
+            <div class="certi-overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="certi-content text-center">
+                            <div class="certi-title text-center">
+                                <h1>Get your certificates now!</h1>
+                            </div>
+                            <div class="certi-text text-center">
+                                <p>For your passionate support to this novel cause, we will send you a verified
+                                    certificate which you can share with your personal and professional network.</p>
+                            </div>
+                            <div class="button button_3 certi-button"><a onclick="on()"><span style="color: white;">Pledge now<i class="fa fa-arrow-right" aria-hidden="true"></i></span></a></div>
+                        </div>
+                    </div>
+					<div class="col-lg-6">
+                        <div class="certi-content text-center">
+                            <div class="certi-text text-center">
+								<p><img src="images/Recognition.png"/></p>
+                                <p>Sample certificate that you will receive.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="footer_container">
+                <div class="container">
+                    <div class="row">
+
+                        <!-- Footer About -->
+                        <div class="col-lg-6 footer_col">
+
+                            <!-- Logo -->
+                            <div class="logo">
+                                <a href="#" onclick="return false;">
+                                    <span><span>The Sparks Foundation Global</span></span>
+                                    <span>Inspire, Innovate, Integrate</span>
+                                </a>
+                            </div>
+                            <div class="footer_text">
+                                <p>The Sparks Foundation (TSF) is a non-profit organization working towards bringing
+                                    parity and making sure everyone has an equal opportunity at success, irrespective of
+                                    their gender, race, region and religion. Visit us at our main website: <a
+                                        href="https://thesparksfoundationsingapore.org/">https://thesparksfoundationsingapore.org/</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 footer_col">
+                            <!-- Logo -->
+                            <div class="logo">
+                                <a href="#" onclick="return false;">
+                                    <span><span>World Environment day 2021</span></span>
+                                    <span>5th June 2021</span>
+                                </a>
+                            </div>
+                            <div class="footer_text">
+                                <p>World Environment day is a global day celebrating the social, economic, cultural
+                                    and political achievements of women. The day also marks a call to action for
+                                    accelerating gender parity. <a
+                                        href="https://www.un.org/en/observances/environment-day">https://www.un.org/en/observances/environment-day</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="styles/bootstrap-4.1.2/popper.js"></script>
+    <script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+    <script src="plugins/greensock/TweenMax.min.js"></script>
+    <script src="plugins/greensock/TimelineMax.min.js"></script>
+    <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="plugins/greensock/animation.gsap.min.js"></script>
+    <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
+    <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="plugins/progressbar/progressbar.min.js"></script>
+    <script src="plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+
+
+</html>
